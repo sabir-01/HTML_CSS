@@ -1,4 +1,39 @@
-*{
-    background-color: rgb(76, 83, 16);
+body{
+
+    background-color: rgb(180, 162, 138);
 }
 
+img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+button{
+
+height: 40px;
+width: 250px;
+
+}
+h1{
+
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color:green;
+
+}
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+  }
+  
+  .image-container img {
+    margin: 10px; 
+  }
+  
