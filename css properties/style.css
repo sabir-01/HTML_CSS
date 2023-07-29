@@ -1,0 +1,62 @@
+body{
+
+background-color: bisque;
+
+}
+
+p{
+font-size: 40px;
+color: rgb(45, 192, 8);
+text-decoration: dotted;
+text-indent: 40px;
+text-transform: capitalize;
+word-spacing: 4px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+
+}
+#mydiv{
+height: 400px;
+width: 400px;
+border-width: 5px;
+border-style: ridge;
+border-color: aqua;
+ font-size: 25px;   
+ /*border-left-style: purple;
+ border-right-style:dotted;
+ border-top-style:dashed;
+ border-bottom-style:groove; */
+
+border-left-width: 20px;
+border-right-width: 40px;
+border-bottom-width: 50px;
+border-top-width: 30px;
+
+}
+img{
+
+width: 400px;
+height: 400px;
+}
+#my{
+
+margin-left: 450px;
+margin-right: 400px;
+margin: 160px;
+margin-top: auto;
+}
+#ny{
+    height: 400px;
+    width: 400px;
+    border-width: 5px;
+    border-style: ridge;
+    border-color: aqua;
+    font-size: 25px;   
+    margin-block-end: auto;
+    border-left-width: 20px;
+    border-right-width: 40px;
+    border-bottom-width: 50px;
+    border-top-width: 30px;
+    margin: auto;
+    padding:auto;
+}
