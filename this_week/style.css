@@ -1,0 +1,52 @@
+body{
+
+    background-color: rgb(180, 162, 138);
+}
+
+img{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.img_right{
+  position: relative;
+  width: 100px; 
+  height: 50px; 
+  border: 1px solid #ccc;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  
+}
+
+
+button{
+
+height: 40px;
+width: 250px;
+
+}
+h1{
+
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color:green;
+
+}
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px;
+  }
+  
+  .image-container img {
+    margin: 10px; 
+  }
+  
