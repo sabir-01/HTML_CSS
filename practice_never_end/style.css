@@ -1,0 +1,93 @@
+.boady{
+margin: 0;
+padding: 0;
+
+}
+html{
+
+background-color: black;
+
+}
+.main{
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+background-color: black;
+
+}
+.text img{
+padding: 20px;
+color: red;
+width: 600px;
+}
+.txt2{
+
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+ h1{
+
+    color:red;
+    text-decoration: solid;
+    background-color: white;
+  
+}
+
+h1:hover{
+background-color:aqua;
+font-size: 50px;
+    text-transform: uppercase;
+
+}
+.top{
+
+
+    text-align: center;
+    font-size: 50px;
+    border: 4px solid red;
+    border-radius: 60px;
+    margin: 60px;
+}
+.part1 p{
+font-size: 20px;
+color: white;
+justify-content: center;
+
+}
+
+.part1 img{
+
+    height: 350px;
+    width: 400px;
+  }
+  div.min2{
+    padding-top: 40px;
+    display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+  }
+  .part2 img{
+
+height: 300px;
+width: 300px;
+  }
+  .part2{
+    color: white;
+
+  }
+  .third{
+
+    padding-top: 40px;
+    display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  gap: 20px;
+  }
+  .part2 p{
+    font-size: 20px;
+    color: white;
+    justify-content: center;
+    
+    }
