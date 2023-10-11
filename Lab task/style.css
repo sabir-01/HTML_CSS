@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+
+    width: 100%;
+
+}
+.head{
+    height: 65px;
+    width: 100%;
+    background-color: grey;
+    display: flex;
+justify-content: center;
+align-items: center;
+ }
+
+.comp{
+    color: white;
+    font-weight: bold;
+}
+.zone{
+    border: 1px solid black;
+    background-color: yellow;
+    padding: 5px;
+}
+.nav{
+    height: 40px;
+    width: 100%;
+    font-size: 20PX ;
+    font-weight: bold;
+    background-color: blue;
+    display: flex;
+justify-content: space-around;
+padding: 10px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.HomeContainer{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+}
+.Home{
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-around;
+    height: 90vh;
+    width: 100%;
+    padding-top: 1rem;
+    background-color: grey;
+    border-bottom-right-radius: 15rem;
+}
+.iphone {
+    width: 300px;
+    height: 600px;
+    background-image: linear-gradient(to bottom right,  yellow, blue);
+    border: 10px solid #333;
+    border-radius: 40px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+color: white;
+}
+.iphone:hover{
+background-image: linear-gradient(to bottom right,blue,yellow);
+}
+.iphone::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 10px;
+    background-color: #333;
+}
+.macbook {
+    width: 550px;
+    height: 400px;
+background-image: linear-gradient(to bottom right,  yellow, blue);
+
+    border: 9px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease-in-out;
+}
+.smartwatch{
+    text-align: center;
+    display: flex ;
+    align-items: center;
+    margin-left: 20px;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(to bottom right,  yellow, blue);
+    border: 9px solid black;
+    border-radius: 30px;
+}
+.smartwatch:hover{
+    background-image: linear-gradient(to bottom right,blue,yellow);
+
+}
+.macbook:hover{
+    background-image: linear-gradient(to bottom right,blue,yellow);
+
+}
+h3{
+    color:white ;
+    font-size: 30px;
+    margin-left: 15px;
+    text-align: center;
+}
+.inner-box {
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.smartwatch{
+
+}
+.mac{
+    color: white;
+    border-radius: 20px;
+}
+.tablet {
+    width: 350px;
+    border-radius: 30px;
+    height: 500px;
+background-image: linear-gradient(to bottom right,  yellow, blue);
+    border: 9px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.tablet:hover{
+    background-image: linear-gradient(to bottom right,  blue, yellow);
+}
+.applecontainer{
+    display: flex;
+justify-content: space-evenly;
+}
+.Homeapple{
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    width: 100%;
+    padding-top: 1rem;
+    background-color: gray;
+    border-bottom-right-radius: 30rem;
+
+}
+.left{
+    margin-top: 150px;
+    width: 500px;
+}
+.right{
+    margin-top: 50px;
+    height: 500px;
+    width: 500px;
+    background-image: url(th-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.more{
+    margin-top: 100px;
+    margin-left: 30px;
+}
+.left H1{
+    font-size: 40PX;
+}
+.left p{
+    font-size: 30px;
+}
