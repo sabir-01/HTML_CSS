@@ -23,3 +23,5 @@ http://narrow-comb.surge.sh/
 # Pepsi WEBSITE Clone
 https://slim-cap.surge.sh/
 
+# lab task
+https://candid-fudge-2e32f6.netlify.app/
